@@ -1,18 +1,18 @@
 {
-  "_id": "5e56d1145c92ebbf0b7793ab",
-  "id": "5e56a9045c92eb375058405a",
-  "name": "test-sync-3",
+  "_id": "5e56d2135c92ebbf0b7793ac",
+  "id": "5e56d2135c92ebbf0b7793ac",
+  "name": "test",
   "org_id": "5e29d73a5c92ebb646b50929",
   "rate": 1000,
   "per": 60,
   "quota_max": -1,
   "quota_renewal_rate": 3600,
-  "throttle_interval": 0,
-  "throttle_retry_limit": 0,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
   "access_rights": {
-    "d700510ddbbc48987cb39bf58e338c68": {
-      "api_name": "Deleted (d700510ddbbc48987cb39bf58e338c68)",
-      "api_id": "d700510ddbbc48987cb39bf58e338c68",
+    "59f1532887a44f574b19c753c39fe6ae": {
+      "api_name": "petstore",
+      "api_id": "59f1532887a44f574b19c753c39fe6ae",
       "versions": [
         "Default"
       ],
@@ -31,6 +31,6 @@
     "acl": false,
     "per_api": false
   },
-  "last_updated": "1582744314",
+  "last_updated": "1582748178",
   "meta_data": {}
 }

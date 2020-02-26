@@ -2,13 +2,16 @@
   "type": "apidef",
   "files": [
     {
-      "file": "api-d7ac798e61ef49794523da769b4f29ea.json",
+      "file": "api-59f1532887a44f574b19c753c39fe6ae.json",
       "oas": {}
     }
   ],
   "policies": [
     {
       "file": "policy-5e56a9045c92eb375058405a.json"
+    },
+    {
+      "file": "policy-5e56d2135c92ebbf0b7793ac.json"
     }
   ]
 }

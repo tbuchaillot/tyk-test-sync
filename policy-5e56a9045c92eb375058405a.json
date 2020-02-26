@@ -1,0 +1,32 @@
+{
+  "_id": "5e56a9045c92eb375058405a",
+  "id": "5e56a9045c92eb375058405a",
+  "org_id": "5e29d73a5c92ebb646b50929",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "d700510ddbbc48987cb39bf58e338c68": {
+      "api_name": "petstore",
+      "api_id": "d700510ddbbc48987cb39bf58e338c68",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "test-sync",
+  "is_inactive": false,
+  "date_created": "2020-02-26T14:21:08.404-03:00",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1582737668"
+}

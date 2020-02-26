@@ -1,5 +1,5 @@
 {
-  "_id": "5e56a9045c92eb375058405a",
+  "_id": "5e56c4e95c92eb6cbcfe7054",
   "id": "5e56a9045c92eb375058405a",
   "org_id": "5e29d73a5c92ebb646b50929",
   "rate": 1000,
@@ -8,7 +8,7 @@
   "quota_renewal_rate": 3600,
   "access_rights": {
     "d700510ddbbc48987cb39bf58e338c68": {
-      "api_name": "petstore",
+      "api_name": "Deleted (d700510ddbbc48987cb39bf58e338c68)",
       "api_id": "d700510ddbbc48987cb39bf58e338c68",
       "versions": [
         "Default"

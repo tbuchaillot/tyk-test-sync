@@ -4,11 +4,18 @@
   "slug": "petstore",
   "api_id": "d700510ddbbc48987cb39bf58e338c68",
   "org_id": "5e29d73a5c92ebb646b50929",
-  "use_keyless": true,
+  "use_keyless": false,
   "use_oauth2": false,
-  "use_openid": false,
+  "use_openid": true,
   "openid_options": {
-    "providers": [],
+    "providers": [
+      {
+        "issuer": "test-sync-2",
+        "client_ids": {
+          "dGVzdENsaWVudDE=": "5e56a9045c92eb375058405a"
+        }
+      }
+    ],
     "segregate_by_client": false
   },
   "oauth_meta": {

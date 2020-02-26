@@ -1,8 +1,8 @@
 {
-  "id": "5e29d76f5c92ebb646b5092a",
+  "id": "5e56c7285c92eb6e1494c3dd",
   "name": "petstore",
   "slug": "petstore",
-  "api_id": "d700510ddbbc48987cb39bf58e338c68",
+  "api_id": "18ee955cd9fb44d377a20cf722181b73",
   "org_id": "5e29d73a5c92ebb646b50929",
   "use_keyless": false,
   "use_oauth2": false,
@@ -12,7 +12,7 @@
       {
         "issuer": "test-sync-2",
         "client_ids": {
-          "dGVzdENsaWVudDE=": "5e56a9045c92eb375058405a"
+          "dGVzdA==": "5e56c7285c92eb6e1494c3df"
         }
       }
     ],
@@ -89,14 +89,7 @@
     }
   },
   "uptime_tests": {
-    "check_list": [
-      {
-        "url": "http://google.com/",
-        "method": "GET",
-        "headers": {},
-        "body": ""
-      }
-    ],
+    "check_list": [],
     "config": {
       "expire_utime_after": 0,
       "service_discovery": {

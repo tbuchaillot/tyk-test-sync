@@ -1,11 +1,14 @@
 {
-  "_id": "5e56c4e95c92eb6cbcfe7054",
+  "_id": "5e56c7285c92eb6e1494c3df",
   "id": "5e56a9045c92eb375058405a",
+  "name": "test-sync-3",
   "org_id": "5e29d73a5c92ebb646b50929",
   "rate": 1000,
   "per": 60,
   "quota_max": -1,
   "quota_renewal_rate": 3600,
+  "throttle_interval": 0,
+  "throttle_retry_limit": 0,
   "access_rights": {
     "d700510ddbbc48987cb39bf58e338c68": {
       "api_name": "Deleted (d700510ddbbc48987cb39bf58e338c68)",
@@ -17,16 +20,17 @@
     }
   },
   "hmac_enabled": false,
+  "enable_http_signature_validation": false,
   "active": true,
-  "name": "test-sync-3",
   "is_inactive": false,
-  "date_created": "2020-02-26T14:21:08.404-03:00",
   "tags": [],
   "key_expires_in": 0,
   "partitions": {
     "quota": false,
     "rate_limit": false,
-    "acl": false
+    "acl": false,
+    "per_api": false
   },
-  "last_updated": "1582744314"
+  "last_updated": "1582744314",
+  "meta_data": {}
 }

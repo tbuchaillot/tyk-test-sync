@@ -1,17 +1,14 @@
 {
-  "_id": "5e56d2135c92ebbf0b7793ac",
+  "_id": "5e56d26d5c92ebbf0b7793af",
   "id": "5e56d2135c92ebbf0b7793ac",
-  "name": "test",
   "org_id": "5e29d73a5c92ebb646b50929",
   "rate": 1000,
   "per": 60,
   "quota_max": -1,
   "quota_renewal_rate": 3600,
-  "throttle_interval": -1,
-  "throttle_retry_limit": -1,
   "access_rights": {
     "59f1532887a44f574b19c753c39fe6ae": {
-      "api_name": "petstore",
+      "api_name": "Deleted (59f1532887a44f574b19c753c39fe6ae)",
       "api_id": "59f1532887a44f574b19c753c39fe6ae",
       "versions": [
         "Default"
@@ -20,17 +17,16 @@
     }
   },
   "hmac_enabled": false,
-  "enable_http_signature_validation": false,
   "active": true,
+  "name": "test",
   "is_inactive": false,
+  "date_created": "0001-01-01T00:00:00Z",
   "tags": [],
   "key_expires_in": 0,
   "partitions": {
     "quota": false,
     "rate_limit": false,
-    "acl": false,
-    "per_api": false
+    "acl": false
   },
-  "last_updated": "1582748178",
-  "meta_data": {}
+  "last_updated": "1583455102"
 }

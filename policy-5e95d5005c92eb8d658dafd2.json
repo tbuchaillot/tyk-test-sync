@@ -1,0 +1,32 @@
+{
+  "_id": "5e95d5005c92eb8d658dafd2",
+  "id": "5e95d5005c92eb8d658dafd2",
+  "org_id": "5e29d73a5c92ebb646b50929",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "access_rights": {
+    "9fe2fdac49364ade6cba484d3eab188a": {
+      "api_name": "petstore",
+      "api_id": "9fe2fdac49364ade6cba484d3eab188a",
+      "versions": [
+        "Vm0wd2QyUXlVWGxWV0d4V1YwZDRWMVl3WkRSWFJteFZVbTVrVmxKc2NIcFhhMk0xVmpGS2MySkVUbGhoTVhCUVZteFZlRll5VGtsalJtaG9UV3N3ZUZadGNFZFRNazE1VTJ0V1ZXSkhhRzlVVjNOM1pVWmFjVkZ0UmxwV01ERTFWVEowVjFaWFNraGhSemxWVm14YU0xWnNXbUZrUjA1R1drWndWMDFWY0VwV2JURXdZekpHVjFOdVVtaFNlbXhXVm0weGIxSkdXbGRYYlhSWFRWaENSbFpYZUZOVWJVWTJVbFJDVjAxdVVuWlZha1pYWkVaT2NscEdhR2xTTW1ob1YxWlNSMWxWTUhoWGJrNVlZbFZhY1ZadGRHRk5SbFowWlVaT1ZXSlZjRWRaTUZaM1ZqSktWVkpZWkZkaGExcFlXa1ZhVDJOdFNrZFRiV2hzWWxob1dGWnRNVEJXTVUxNFZXdGtWMWRIYUZsWmJHaFRWMFpTVjFwRVFrOWlSM2hYVmpKNFQxWlhTa2RqUm14aFUwaENSRlpxUVhoa1ZsWjFWMnhrVTFKWVFrbFdWM0JIVkRKU1YxWnVUbGhpVjNoVVZGY3hiMkl4V1hoYVJFSm9UVlpXTlZaWE5VOWhiRXAwVld4c1dtSkdXbWhaTVZwVFZqRmtkVnBGTlZOaVJtOTNWMnhXYTAxR1dsaFRhMlJxVWtWYVYxWnFUbTlrYkZweFVtdDBhazFyTlVoWlZWcHJZVWRGZWxGcmJGZFdSVXBvVjFaa1UxWXhUblZVYkZKcFVqRktWVlpHVWtKa01ERlNVRlF3UFE9PQ=="
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "rwrwr",
+  "is_inactive": false,
+  "date_created": "2020-04-14T12:21:36.883-03:00",
+  "tags": [],
+  "key_expires_in": 3600,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "acl": true
+  },
+  "last_updated": "1586877696"
+}

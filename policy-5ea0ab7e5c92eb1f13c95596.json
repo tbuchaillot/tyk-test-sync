@@ -1,0 +1,32 @@
+{
+  "_id": "5ea0ab7e5c92eb1f13c95596",
+  "id": "5ea0ab7e5c92eb1f13c95596",
+  "org_id": "5e29d73a5c92ebb646b50929",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "access_rights": {
+    "f3947699f7d042d44a188d649a32cedb": {
+      "api_name": "tom",
+      "api_id": "f3947699f7d042d44a188d649a32cedb",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "tom",
+  "is_inactive": false,
+  "date_created": "2020-04-22T17:39:26.359-03:00",
+  "tags": [],
+  "key_expires_in": 3600,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "acl": true
+  },
+  "last_updated": "1587587966"
+}

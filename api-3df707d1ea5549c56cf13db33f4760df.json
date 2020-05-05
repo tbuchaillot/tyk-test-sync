@@ -45,13 +45,13 @@
         {
           "issuer": "issuer-1",
           "client_ids": {
-            "aXNzdWVyLTE=": "5eb0b0b85c92eb9e3007d547"
+            "aXNzdWVyLTE=": "5ea0ab7e5c92eb1f13c95596"
           }
         },
         {
           "issuer": "https://dev-p4e24kd4.auth0.com/",
           "client_ids": {
-            "VHFWNk81WnAxVEZOWnoyNlpuRjJJYVFCQ1NTTVhCelU=": "5eb0b0b85c92eb9e3007d547"
+            "VHFWNk81WnAxVEZOWnoyNlpuRjJJYVFCQ1NTTVhCelU=": "5ea0ab7e5c92eb1f13c95596"
           }
         }
       ],

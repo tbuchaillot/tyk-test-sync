@@ -1,0 +1,32 @@
+{
+  "_id": "5f20a0bc5c92eb1dca482aef",
+  "id": "5f20a0bc5c92eb1dca482aef",
+  "org_id": "5f060dab5c92eb671dc12a4a",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "access_rights": {
+    "7fc56913c23644f44d08d7587c1117b9": {
+      "api_name": "test",
+      "api_id": "7fc56913c23644f44d08d7587c1117b9",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": []
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "test",
+  "is_inactive": false,
+  "date_created": "2020-07-28T19:03:40.187-03:00",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "acl": true
+  },
+  "last_updated": "1595973820"
+}

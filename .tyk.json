@@ -2,6 +2,10 @@
   "type": "apidef",
   "files": [
     {
+      "file": "api-7f0797860a2b4f20693fadffde8894b0.json",
+      "oas": {}
+    },
+    {
       "file": "api-7fc56913c23644f44d08d7587c1117b9.json",
       "oas": {}
     }
@@ -9,6 +13,9 @@
   "policies": [
     {
       "file": "policy-5f20a0bc5c92eb1dca482aef.json"
+    },
+    {
+      "file": "policy-5f3fca5a5c92ebe1a5dd48f6.json"
     }
   ]
 }

@@ -1,24 +1,17 @@
 {
-  "id": "5f3fc8f85c92ebe1a5dd48f3",
-  "name": "test",
-  "slug": "test",
+  "id": "5f3fca465c92ebe1a5dd48f5",
+  "name": "test2",
+  "slug": "",
   "listen_port": 0,
   "protocol": "",
   "enable_proxy_protocol": false,
-  "api_id": "7fc56913c23644f44d08d7587c1117b9",
+  "api_id": "7f0797860a2b4f20693fadffde8894b0",
   "org_id": "5f2970e05c92eb3b267d89e2",
   "use_keyless": false,
   "use_oauth2": false,
-  "use_openid": true,
+  "use_openid": false,
   "openid_options": {
-    "providers": [
-      {
-        "issuer": "https://dev-p4e24kd4.auth0.com/",
-        "client_ids": {
-          "VHFWNk81WnAxVEZOWnoyNlpuRjJJYVFCQ1NTTVhCelU=": "5f3fc8f85c92ebe1a5dd48f2"
-        }
-      }
-    ],
+    "providers": [],
     "segregate_by_client": false
   },
   "oauth_meta": {
@@ -61,7 +54,92 @@
         "error_message": ""
       }
     },
+    "basic": {
+      "use_param": false,
+      "param_name": "",
+      "use_cookie": false,
+      "cookie_name": "",
+      "auth_header_name": "Authorization",
+      "use_certificate": false,
+      "validate_signature": false,
+      "signature": {
+        "algorithm": "",
+        "header": "",
+        "secret": "",
+        "allowed_clock_skew": 0,
+        "error_code": 0,
+        "error_message": ""
+      }
+    },
+    "coprocess": {
+      "use_param": false,
+      "param_name": "",
+      "use_cookie": false,
+      "cookie_name": "",
+      "auth_header_name": "Authorization",
+      "use_certificate": false,
+      "validate_signature": false,
+      "signature": {
+        "algorithm": "",
+        "header": "",
+        "secret": "",
+        "allowed_clock_skew": 0,
+        "error_code": 0,
+        "error_message": ""
+      }
+    },
+    "hmac": {
+      "use_param": false,
+      "param_name": "",
+      "use_cookie": false,
+      "cookie_name": "",
+      "auth_header_name": "Authorization",
+      "use_certificate": false,
+      "validate_signature": false,
+      "signature": {
+        "algorithm": "",
+        "header": "",
+        "secret": "",
+        "allowed_clock_skew": 0,
+        "error_code": 0,
+        "error_message": ""
+      }
+    },
     "jwt": {
+      "use_param": false,
+      "param_name": "",
+      "use_cookie": false,
+      "cookie_name": "",
+      "auth_header_name": "Authorization",
+      "use_certificate": false,
+      "validate_signature": false,
+      "signature": {
+        "algorithm": "",
+        "header": "",
+        "secret": "",
+        "allowed_clock_skew": 0,
+        "error_code": 0,
+        "error_message": ""
+      }
+    },
+    "oauth": {
+      "use_param": false,
+      "param_name": "",
+      "use_cookie": false,
+      "cookie_name": "",
+      "auth_header_name": "Authorization",
+      "use_certificate": false,
+      "validate_signature": false,
+      "signature": {
+        "algorithm": "",
+        "header": "",
+        "secret": "",
+        "allowed_clock_skew": 0,
+        "error_code": 0,
+        "error_message": ""
+      }
+    },
+    "oidc": {
       "use_param": false,
       "param_name": "",
       "use_cookie": false,
@@ -92,7 +170,7 @@
   "upstream_certificates": {},
   "pinned_public_keys": {},
   "enable_jwt": false,
-  "use_standard_auth": false,
+  "use_standard_auth": true,
   "use_go_plugin_auth": false,
   "enable_coprocess_auth": false,
   "jwt_signing_method": "",
@@ -172,7 +250,7 @@
   },
   "proxy": {
     "preserve_host_header": false,
-    "listen_path": "/test/",
+    "listen_path": "/test2/",
     "target_url": "http://httpbin.org",
     "disable_strip_slash": false,
     "strip_listen_path": true,

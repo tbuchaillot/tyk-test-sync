@@ -1,11 +1,9 @@
 {
-  "_id": "5f3fc8f85c92ebe1a5dd48f2",
+  "_id": "5f20a0bc5c92eb1dca482aef",
   "id": "5f20a0bc5c92eb1dca482aef",
-  "org_id": "5f2970e05c92eb3b267d89e2",
+  "org_id": "5f060dab5c92eb671dc12a4a",
   "rate": 1000,
   "per": 60,
-  "throttle_interval": 0,
-  "throttle_retry_limit": 0,
   "quota_max": -1,
   "quota_renewal_rate": -1,
   "access_rights": {
@@ -28,9 +26,7 @@
   "partitions": {
     "quota": true,
     "rate_limit": true,
-    "acl": true,
-    "per_api": false
+    "acl": true
   },
-  "last_updated": "1595973820",
-  "meta_data": {}
+  "last_updated": "1595973820"
 }

@@ -1,12 +1,9 @@
 {
-  "id": "5f3fc8f85c92ebe1a5dd48f3",
+  "id": "5f20a0ab5c92eb1dca482aee",
   "name": "test",
   "slug": "test",
-  "listen_port": 0,
-  "protocol": "",
-  "enable_proxy_protocol": false,
   "api_id": "7fc56913c23644f44d08d7587c1117b9",
-  "org_id": "5f2970e05c92eb3b267d89e2",
+  "org_id": "5f060dab5c92eb671dc12a4a",
   "use_keyless": false,
   "use_oauth2": false,
   "use_openid": true,
@@ -15,7 +12,7 @@
       {
         "issuer": "https://dev-p4e24kd4.auth0.com/",
         "client_ids": {
-          "VHFWNk81WnAxVEZOWnoyNlpuRjJJYVFCQ1NTTVhCelU=": "5f3fc8f85c92ebe1a5dd48f2"
+          "VHFWNk81WnAxVEZOWnoyNlpuRjJJYVFCQ1NTTVhCelU=": "5f20a0bc5c92eb1dca482aef"
         }
       }
     ],
@@ -32,60 +29,12 @@
     "use_cookie": false,
     "cookie_name": "",
     "auth_header_name": "Authorization",
-    "use_certificate": false,
-    "validate_signature": false,
-    "signature": {
-      "algorithm": "",
-      "header": "",
-      "secret": "",
-      "allowed_clock_skew": 0,
-      "error_code": 0,
-      "error_message": ""
-    }
-  },
-  "auth_configs": {
-    "authToken": {
-      "use_param": false,
-      "param_name": "",
-      "use_cookie": false,
-      "cookie_name": "",
-      "auth_header_name": "Authorization",
-      "use_certificate": false,
-      "validate_signature": false,
-      "signature": {
-        "algorithm": "",
-        "header": "",
-        "secret": "",
-        "allowed_clock_skew": 0,
-        "error_code": 0,
-        "error_message": ""
-      }
-    },
-    "jwt": {
-      "use_param": false,
-      "param_name": "",
-      "use_cookie": false,
-      "cookie_name": "",
-      "auth_header_name": "Authorization",
-      "use_certificate": false,
-      "validate_signature": false,
-      "signature": {
-        "algorithm": "",
-        "header": "",
-        "secret": "",
-        "allowed_clock_skew": 0,
-        "error_code": 0,
-        "error_message": ""
-      }
-    }
+    "use_certificate": false
   },
   "use_basic_auth": false,
   "basic_auth": {
     "disable_caching": false,
-    "cache_ttl": 0,
-    "extract_from_body": false,
-    "body_user_regexp": "",
-    "body_password_regexp": ""
+    "cache_ttl": 0
   },
   "use_mutual_tls_auth": false,
   "client_certificates": [],
@@ -93,14 +42,12 @@
   "pinned_public_keys": {},
   "enable_jwt": false,
   "use_standard_auth": false,
-  "use_go_plugin_auth": false,
   "enable_coprocess_auth": false,
   "jwt_signing_method": "",
   "jwt_source": "",
   "jwt_identity_base_field": "",
   "jwt_client_base_field": "",
   "jwt_policy_field_name": "",
-  "jwt_default_policies": [],
   "jwt_issued_at_validation_skew": 0,
   "jwt_expires_at_validation_skew": 0,
   "jwt_not_before_validation_skew": 0,
@@ -114,15 +61,6 @@
   "enable_signature_checking": false,
   "hmac_allowed_clock_skew": -1,
   "hmac_allowed_algorithms": [],
-  "request_signing": {
-    "is_enabled": false,
-    "secret": "",
-    "key_id": "",
-    "algorithm": "",
-    "header_list": [],
-    "certificate_id": "",
-    "signature_header": ""
-  },
   "base_identity_provided_by": "",
   "definition": {
     "location": "header",
@@ -145,7 +83,6 @@
         "extended_paths": {},
         "global_headers": {},
         "global_headers_remove": [],
-        "ignore_endpoint_case": false,
         "global_size_limit": 0,
         "override_target": ""
       }
@@ -195,7 +132,6 @@
       "ssl_insecure_skip_verify": false,
       "ssl_ciphers": [],
       "ssl_min_version": 0,
-      "ssl_force_common_name_check": false,
       "proxy_url": ""
     }
   },
@@ -208,8 +144,7 @@
     "auth_check": {
       "name": "",
       "path": "",
-      "require_session": false,
-      "raw_body_only": false
+      "require_session": false
     },
     "response": [],
     "driver": "",
@@ -226,12 +161,10 @@
     "cache_all_safe_requests": false,
     "cache_response_codes": [],
     "enable_upstream_cache_control": false,
-    "cache_control_ttl_header": "",
-    "cache_by_headers": []
+    "cache_control_ttl_header": ""
   },
   "session_lifetime": 0,
   "active": true,
-  "internal": false,
   "auth_provider": {
     "name": "",
     "storage_engine": "",
@@ -275,6 +208,5 @@
     "rate": 0,
     "per": 0
   },
-  "strip_auth_data": false,
-  "enable_detailed_recording": false
+  "strip_auth_data": false
 }
